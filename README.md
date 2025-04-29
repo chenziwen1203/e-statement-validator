@@ -13,7 +13,7 @@ A Python module specifically designed for validating Bank of China (BOC) electro
 ## Installation
 
 ```bash
-pip install git+https://github.com/chenziwen1203/e-statement-validator.git
+pip install git+https://github.com/chenziwen1203/estatementvalidator.git
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ pip install git+https://github.com/chenziwen1203/e-statement-validator.git
 ### Basic Usage
 
 ```python
-from estatement_validator import validate_document
+from estatementvalidator import validate_document
 
 # Validate a Bank of China e-statement
 is_valid, result = validate_document("path/to/your/boc_statement.pdf")
