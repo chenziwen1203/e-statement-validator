@@ -5,13 +5,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="e-statement-validator",
-    version="1.0.0",
+    version="0.0.1",
     author="Chen Ziwen",
     author_email="chenziwen23ad@163.com",
     description="A Python module for validating electronic statements (PDF documents)",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/e-statement-validator",
+    url="https://github.com/chenziwen1203/e-statement-validator",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",

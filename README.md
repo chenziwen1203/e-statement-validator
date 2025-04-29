@@ -13,7 +13,7 @@ A Python module specifically designed for validating Bank of China (BOC) electro
 ## Installation
 
 ```bash
-pip install e-statement-validator
+pip install git+https://github.com/chenziwen1203/e-statement-validator.git
 ```
 
 ## Usage
