@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="e-statement-validator",
+    name="estatementvalidator",
     version="0.0.1",
     author="Chen Ziwen",
     author_email="chenziwen23ad@163.com",
     description="A Python module for validating electronic statements (PDF documents)",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/chenziwen1203/e-statement-validator",
+    url="https://github.com/chenziwen1203/estatementvalidator",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -36,7 +36,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "estatement-validator=estatement_validator:main",
+            "estatementvalidator=estatementvalidator:main",
         ],
     },
 ) 
