@@ -12,7 +12,7 @@ Main Functions:
     - extract_content: Extract content from the document
 """
 
-from estatement_validator import (
+from estatementvalidator.estatement_validator import (
     validate_document,
     check_producer,
     check_modification,
@@ -20,7 +20,7 @@ from estatement_validator import (
     extract_content
 )
 
-__version__ = '1.0.0'
+__version__ = '0.0.1'
 __all__ = [
     'validate_document',
     'check_producer',
