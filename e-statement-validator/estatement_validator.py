@@ -261,7 +261,8 @@ def validate_document(file_path: str, api_url: str = "http://localhost:8000") ->
             'producer': 'true',
             'modify': 'true',
             'qrcode': 'true',
-            'content': content
+            'content': content,
+            'message':'All checks passed'
         }
 
     except Exception as e:
