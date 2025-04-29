@@ -224,7 +224,8 @@ def validate_document(file_path: str, api_url: str = "http://localhost:8000") ->
                 'result': 'fail',
                 'producer': 'false',
                 'modify': 'unknown',
-                'qrcode': 'unknown'
+                'qrcode': 'unknown',
+                'message':'Producer check failed'
             }
 
         # Step 2: Modification check
@@ -235,7 +236,8 @@ def validate_document(file_path: str, api_url: str = "http://localhost:8000") ->
                 'producer': 'true',
                 'modify': 'false',
                 'qrcode': 'unknown',
-                'modify_result': modify_result.get('modify_result')
+                'modify_result': modify_result.get('modify_result'),
+                'message':'Modification check failed'
             }
 
         # Step 3: QR code check
@@ -246,7 +248,8 @@ def validate_document(file_path: str, api_url: str = "http://localhost:8000") ->
                 'producer': 'true',
                 'modify': 'true',
                 'qrcode': 'false',
-                'qr_result': qrcode_result.get('qr_result')
+                'qr_result': qrcode_result.get('qr_result'),
+                'message':'QR code check failed'
             }
 
         # Extract content
