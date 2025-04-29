@@ -3,9 +3,9 @@ import os
 import json
 import re
 from typing import Tuple, Dict, Any
-from producer_check import producer_check
-from modify_check import modify_detect
-from img_qr_reader import qrcode_data
+from estatementvalidator.producer_check import producer_check
+from estatementvalidator.modify_check import modify_detect
+from estatementvalidator.img_qr_reader import qrcode_data
 
 def check_producer(file_path: str) -> Tuple[bool, Dict[str, Any]]:
     """
