@@ -2,7 +2,7 @@ from PIL import Image, UnidentifiedImageError, ImageOps
 import pyzbar.pyzbar as pyzbar
 import os
 import time
-from pdf_qr2img import qr2img
+from estatementvalidator.pdf_qr2img import qr2img
 
 # --- Configuration for Debugging ---
 DEBUG_SAVE_IMAGES = False  # Set to True to save processed images for inspection
